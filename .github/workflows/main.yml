@@ -23,7 +23,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install if -r requirements.txt
 
     - name: Run creator.py script
       run: |
